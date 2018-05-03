@@ -21,6 +21,7 @@ ul.social-links {
 aside#social:hover ul.social-links {
     display: block;
 }
+
 asider#social
  html {
      color: black;
@@ -62,18 +63,30 @@ ul.main-nav {
     text-align: center;
 }
 
-p.lead {
+.lead {
     font-size: 2rem;
     font-family: garamond;
 }
-
-ul.weybec-people {
+.weybec-people {
     list-style-type: none;
+    float: left;
+    padding: 5px 5px 5px 5px;
+    margin: 1px;
 }
 
+.weybec-people li {
+    list-style-type: none;
+    float: left;
+    padding: 5px 5px 5px 5px;
+    margin: 1px;
+    display:block;
+}
 img.headshot {
     width: 175px;
     height: auto;
+    float: left;
+    padding: 5px 5px 5px 5px;
+    margin: 1px;
 }
 
 footer {
@@ -91,7 +104,11 @@ section#watch {
 }
 
 section#about {
-    background: purple;
+    background: azure;
+    padding-top: 10px;
+    padding-bottom: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 section#listen {
