@@ -4,7 +4,24 @@
  *
  * Site Styles
  *****************************************************************************/
+aside#social {
+    background: azure;
+    width: 200px;
+    height: auto;
+    position: sticky;
+    top: 50px;
+    right: 20px;
+    cursor:pointer;
+}
 
+ul.social-links {
+    display:none;
+}
+
+aside#social:hover ul.social-links {
+    display: block;
+}
+asider#social
  html {
      color: black;
      margin: 0;
@@ -22,15 +39,28 @@ header {
 h1 {
     background: rgba(255,255,255,0.6);
     padding: 5px;
-    text-align: right;
+    text-align: center;
     font-family: garamond;
     font-size:7rem;
+    text-transform: uppercase;
+    color: azure;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: garamond;
+    text-transform: capitalize;
+    text-align: left;
 }
 
 p.subtitle {
-    text-align: right;
+    text-align: center;
 }
 
+ul.main-nav {
+    list-style-type: none;
+    text-align: center;
+}
 footer {
     background: grey;
 }
