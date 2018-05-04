@@ -8,8 +8,7 @@ html {
     background: url(../img/monkey_crystal_tail.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: left bottom;
-    
+    background-position: left bottom;    
 }
 
 body a {
@@ -39,7 +38,6 @@ aside#social {
     transition: 2s height;
     background: rgba(255,255,255,0.6)
 }
-
 
 ul.social-links {
     display:none;
