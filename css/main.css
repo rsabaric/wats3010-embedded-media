@@ -4,9 +4,18 @@
  *
  * Site Styles
  *****************************************************************************/
+html {
+    background: url(../img/monkey_crystal_tail.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    
+}
+
 body a {
     text-decoration: none;
 }
+
 a:hover {
     color: red;
 }
@@ -90,7 +99,7 @@ p.subtitle {
     text-align: center;
     padding: 8px;
     margin: 5px;
-    border: solid 2px azure;
+    border: solid 3px azure;
 }
 
 .lead {
@@ -120,17 +129,18 @@ p.subtitle {
 }
 
 footer {
-    background: #f2f2f2;
+    background: #e6e6e6;
     padding-top: 2px;
     padding-bottom: 2px;
-    padding-left:100px;
+    margin: 0 auto;
+    width: 1100px;
 }
 
 section {
     padding-top: 50px;
     padding-bottom: 25px;
-    padding-left: 10px;
-    padding-right:10px;
+    margin: 0 auto;
+    width: 1100px;
 }
 section#watch {
     background: #9fdfbc ;
@@ -141,20 +151,18 @@ video {
     text-align: center;
     margin: 0 auto;
     display: block;
-    /* width: 900px; */
+    width: 900px;
 }
 
 section#about {
     background: azure;
     padding-top: 1px;
     padding-bottom: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
     border-bottom: 3px solid #bfbfbf;
 }
 
 section#listen {
-    background: url(../img/monkey_crystal.jpg);
+    background: url(../img/monkey_flight.jpg);
     padding-top: 1px;
     background-position: center center;
     background-repeat: no-repeat;
