@@ -4,7 +4,7 @@
  *
  * Site Styles
  *****************************************************************************/
-/* html */
+/* Html */
 
 html {
     background: url(../img/monkey_crystal_tail.jpg);
@@ -13,12 +13,24 @@ html {
     background-position: left bottom;    
 }
 
+/* Body */
+
 body a {
     text-decoration: none;
 }
 
 a:hover {
     color: red;
+}
+
+.main-nav li{
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    padding: 8px;
+    margin: 5px;
+    border: solid 3px azure;
+    font-size: 18px;
 }
 
 a.download-button {
@@ -29,6 +41,58 @@ a.download-button {
     text-shadow: 1px 1px darkturquoise;
     color: azure;
 }
+
+h1 {
+    padding: 5px;
+    text-align: center;
+    font-family: garamond;
+    font-size:7rem;
+    text-transform: uppercase;
+    color: azure;
+    text-shadow: 2px 2px #404040;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: garamond;
+    text-transform: capitalize;
+    text-align: center;
+    color: #404040;
+}
+
+h3 {
+    padding-left: 20px;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    width: 1100px;
+}
+
+/* Header */
+
+header {
+    height: 400px;
+    background: url(../img/monkaa_monkeyhang.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+p.subtitle {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: garamond; 
+    display: inline-block;
+    padding-left: 38px;
+    margin: 5px;
+    color:  #404040;
+}
+
+/* Aside Social*/
 
 aside#social {
     background: azure;
@@ -63,58 +127,25 @@ aside#social
      padding: 0;
  }
 
-header {
-    height: 400px;
-    background: url(../img/monkaa_monkeyhang.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;   
-}
+/*Watch */
 
-h1 {
-    padding: 5px;
-    text-align: center;
-    font-family: garamond;
-    font-size:7rem;
-    text-transform: uppercase;
-    color: azure;
-    text-shadow: 2px 2px #404040;
-}
-
-h2 {
-    font-size: 2rem;
-    font-family: garamond;
-    text-transform: capitalize;
-    text-align: center;
-    color: #404040;
-}
-
-h3 {
-    padding-left: 20px;
-}
 p {
     padding-left: 20px;
 }
 
-p.subtitle {
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: garamond; 
-    display: inline-block;
-    padding-left: 38px;
-    margin: 5px;
-    color:  #404040;
+section#watch {
+    background: #9fdfbc ;
+    padding: 1px;
 }
 
-.main-nav li{
-    display: inline-block;
-    list-style-type: none;
+video {
     text-align: center;
-    padding: 8px;
-    margin: 5px;
-    border: solid 3px azure;
+    margin: 0 auto;
+    display: block;
+    width: 950px;
 }
+
+/* Listen */
 
 .lead {
     font-size: 20px;
@@ -124,6 +155,22 @@ p.subtitle {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+section#listen {
+    background: url(../img/monkey_flight.jpg);
+    padding-top: 1px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 275px;
+}
+
+audio {
+    padding-top: 110px;
+    padding-left: 20px;
+}
+
+/*About */
 
 .weybec-people {
     list-style-type: none;
@@ -145,32 +192,6 @@ p.subtitle {
     margin: 1px;
 }
 
-footer {
-    background: #e6e6e6;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    margin: 0 auto;
-    width: 1100px;
-}
-
-section {
-    padding-top: 50px;
-    padding-bottom: 25px;
-    margin: 0 auto;
-    width: 1100px;
-}
-section#watch {
-    background: #9fdfbc ;
-    padding: 1px;
-}
-
-video {
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-    width: 900px;
-}
-
 section#about {
     background: azure;
     padding-top: 1px;
@@ -178,20 +199,12 @@ section#about {
     border-bottom: 3px solid #bfbfbf;
 }
 
-section#listen {
-    background: url(../img/monkey_flight.jpg);
-    padding-top: 1px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    height: 275px;
-}
+/* Footer */
 
-audio {
-    padding-top: 110px;
-    padding-left: 20px;
-}
-
-section#share {
-    background: green;
+footer {
+    background: #e6e6e6;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0 auto;
+    width: 1100px;
 }
